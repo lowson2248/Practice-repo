@@ -1,3 +1,3 @@
 interface Human{
-  void run();
+  void Run();
 }
