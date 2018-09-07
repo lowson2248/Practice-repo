@@ -1,3 +1,0 @@
-interface Human{
-  void run();
-}
