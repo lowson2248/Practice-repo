@@ -1,0 +1,6 @@
+
+interface Monster{
+    
+    void attack();
+
+}
