@@ -1,6 +1,8 @@
 java.util.*;
 class Monster extends Life {
-    public void attack(){
-	System.out.println("攻撃します");
+    public int attack(int hp){
+	System.out.println("攻撃!");
+	hp = hp - 20;
+	return hp;
     }
 }
