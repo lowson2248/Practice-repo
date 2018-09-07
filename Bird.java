@@ -1,0 +1,4 @@
+
+interface Bird {
+	void run();
+}
