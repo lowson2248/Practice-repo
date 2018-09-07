@@ -6,8 +6,12 @@ public class Life {
 	        return hp;
 	    }
 
-	void dead() {
-		if(hp>=0){
+		public void setHp(int hp) {
+			this.hp = hp;
+		}
+
+	void dead(int hp) {
+		if(hp<=0){
 		System.out.println("死にました。");
 		}
 	}
