@@ -1,5 +1,5 @@
 java.util.*;
-public class Life {
+abstract class Life {
     
     private int hp = 100;
     
