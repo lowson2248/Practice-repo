@@ -1,6 +1,6 @@
 class Yatagarasu extends Monster implements Bird {
     public void run(){
-        System.out.println("八咫烏が逃げた");
+        
     }
 
     public int attack(int hp){
