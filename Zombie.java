@@ -9,7 +9,7 @@ public class Zombie extends Monster implements Human {
 		Random rnd = new Random();
 		int i = rnd.nextInt(100) + 1;
 		hp -= i;
-		System.out.println("ゾンビがかみついた！！");
+		System.out.println("ゾンビがかみついた！！" + i + "のダメージ！");
 		return hp;
 	}
 
