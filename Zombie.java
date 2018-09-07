@@ -1,15 +1,21 @@
-package model;
-java.util.Random;
-	java.lang.Math;
+import java.util.Random;
 
 public class Zombie extends Monster implements Human {
 	public void Run(){
-		System.out.println("ƒ]ƒ“ƒr‚ª“¦‚°‚½B");
+		System.out.println("ã‚¾ãƒ³ãƒ“ãŒé€ƒã’ãŸï¼ï¼");
 	}
 
-	public void attack(int hp){
+	public int attack(int hp){
+		Random rnd = new Random();
 		int i = rnd.nextInt(100) + 1;
 		hp -= i;
-		System.out.println("ƒ]ƒ“ƒr‚ªƒAƒ^ƒbƒN‚µ‚½I");
+		System.out.println("ã‚¾ãƒ³ãƒ“ãŒã‹ã¿ã¤ã„ãŸï¼ï¼");
+		return hp;
 	}
+
+    public void dead(int hp){
+        if(hp <= 0){
+            System.out.println("HPãŒ0ã«ãªã‚Šã¾ã—ãŸ");
+        }
+    }
 }
