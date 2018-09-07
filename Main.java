@@ -7,7 +7,7 @@ class Main{
         Yatagarasu yataB = new Yatagarasu();
         
         //ゾンビをインスタンス化
-        Zombi zombi = new Zombi();
+        Zombie zombie = new Zombie();
         
         for(;yataB.getHp() > 0;){
             int damage = zombi.attack(yataB.getHp());
